@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: expense-tracker
+  flyway:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
