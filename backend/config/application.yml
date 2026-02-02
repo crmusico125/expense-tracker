@@ -1,6 +1,8 @@
 spring:
   application:
     name: expense-tracker
+  profiles:
+    active: dev
   flyway:
     enabled: true
 
